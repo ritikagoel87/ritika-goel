@@ -1,3 +1,56 @@
 body {
-  color: pink;
+  color: rgb(63, 65, 62);
+}
+
+.navbar, .resume-button, footer {
+  background-color: rgb(255, 87, 87);
+}
+
+nav a {
+  color: #fff !important;
+}
+
+.brand-name {
+  font-family: 'Great Vibes', cursive;
+}
+
+.social-links {
+  color: rgb(63, 65, 62);
+}
+
+.social-links:hover {
+  color: rgb(255, 87, 87);
+  text-decoration: none;
+}
+
+.moto {
+  font-style: italic;
+}
+
+.resume-button {
+  border-radius: 5px;
+}
+
+.carousel-caption {
+  color: rgb(63, 65, 62);
+  background-color: rgba(255, 87, 87, 0.8);
+}
+
+.carousel-caption a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-pic {
+  width: 30vw;
+  height: 40vh;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
